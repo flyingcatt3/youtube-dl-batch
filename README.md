@@ -8,4 +8,4 @@ More convenient way to downloading music from Youtube.
 如果遇到 Error 403 請多試幾次
 
 
-建議使用 AIMP 播放 http://www.aimp.ru/?do=download
+檔案為 OPUS 格式，建議使用 AIMP 播放 http://www.aimp.ru/?do=download
