@@ -16,7 +16,7 @@ FOR /F "tokens=* USEBACKQ" %%F IN (`powershell -sta "add-type -as System.Windows
     echo #### 複製的內容為
     echo #### %%F
     echo/
-    youtube-dl %%F -f 251 -o "%cd%\webm\%%(title)s.%%(ext)s" --console-title -ciw
+    yt-dlp %%F -f 251 -o "%cd%\webm\%%(title)s.%%(ext)s" --console-title -ciw
     IF ERRORLEVEL 1 (
         echo/
         color 0c
